@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+  }
+
+.nav {
+    position: relative;
+    margin: 10px;
+    font-family: "Cinzel", sans-serif;
+    background-color: hsl(34, 57%, 70%,0.5);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    float:left;
+  }
+  
+  .nav:hover {
+    color: hsl(0, 59%, 41%);
+    transform: scale(0.9) translateY(-5px);
+  }
+  
+  .logo {
+    padding: 20px;
+    font-family: "Cinzel", sans-serif;
+    background: hsl(34, 57%, 50%);
+    color: white;
+    cursor: default;
+  }

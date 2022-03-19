@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Tangerine", sans-serif;
+}
+
+.logo {
+  padding: 20px;
+  font-family: "Cinzel", sans-serif;
+  background: hsl(34, 57%, 50%);
+  color: white;
+}
+
+.showcase img {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  opacity: 40%;
+}
+
+.showcase header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  position: relative;
+  left: 900px;
+  margin: 10px;
+  font-family: "Cinzel", sans-serif;
+  background-color: hsl(34, 57%, 70%,0.5);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.navhr {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  color: burlywood;
+  width: 30%;
+  margin: auto auto;
+}
+
+.nav:hover {
+  color: hsl(0, 59%, 41%);
+  transform: scale(0.9) translateY(-5px);
+}
+
+.text {
+  position: absolute;
+  top: 200px;
+  background-color: hsl(208, 100%, 97%,0.6);
+  max-width: 700px;
+  margin: 20px 80px;
+  padding: 20px;
+
+}
+
+.text h3 {
+  font-size: 100px;
+  font-weight: 800px;
+  color: hsl(0, 59%, 30%);
+}
+.text hr {
+  width: 60%;
+  margin: 15px;
+  color: burlywood;
+}
+
+.text p {
+  font-size: 50px;
+  font-weight: 600;
+  color: hsl(0, 59%, 28%);
+  z-index: 3;
+}
+
+.container {
+  position: relative;
+  top: 800px;
+  margin: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.boxtext {
+  position: relative;
+  bottom: 100px;
+  font-family:'Crimson Text', serif;
+  font-size: 25px;
+  max-width: 80%;
+  line-height: 2em;
+  padding: 40px;
+  background-color: hsl(33, 100%, 88%,0.5);
+  display: flex;
+  align-items: baseline;
+  margin: 100px;
+}
+
+
+.box a img {
+  position: relative;
+  transition: transform 0.5s;
+  margin: 20px 140px;
+  width: 60%;
+}
+
+.box a:hover img {
+  transform: scale(0.95);
+}
+
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .showcase p {
+    font-size: 40px;
+  }
+
+  .showcase h3 {
+    font-size: 70px;
+  }
+}
